@@ -14,17 +14,13 @@ const darkTheme = {
 
 export default function HomeScreen() {
   return (
-  
-    
+
     <View style={styles.outerContainer}>
       <StatusBar style="light" />
       
       <ScrollView contentContainerStyle={styles.scrollContainer} bounces={false}>
         
-        {}
         <Text style={styles.h1}>ETEC DE ITANHÁEM</Text>
-
-        {}
         <View style={styles.logoContainer}>
             <Image 
                 source={require('../../assets/images/etecitanhaem.png')} 
@@ -32,8 +28,7 @@ export default function HomeScreen() {
                 resizeMode="contain"
             />
         </View>
-
-        {}
+       
         <View style={styles.glassContainer}>
             <BlurView intensity={25} tint="dark" style={styles.blurCard}>
                 <View style={styles.cardContent}>
@@ -43,8 +38,6 @@ export default function HomeScreen() {
                 </View>
             </BlurView>
         </View>
-
-        {}
         <View style={styles.glassContainerImagem}>
             <BlurView intensity={20} tint="dark" style={styles.blurCardImagem}>
                 <Image 
@@ -59,7 +52,6 @@ export default function HomeScreen() {
     </View>
   );
 }
-
 const styles = StyleSheet.create({
   outerContainer: {
     flex: 1,
