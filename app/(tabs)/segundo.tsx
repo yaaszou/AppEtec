@@ -16,7 +16,7 @@ export default function SerieScreen() {
      </View>
      <Text style={styles.subtitulo}>Desenvolvedor web e mobile</Text>
     <Image 
-          source={require('../../assets/images/tercg')} 
+          source={require('../../assets/images/segundo.jpg')} 
           style={styles.imagemr}
           resizeMode="cover"
         /></ScrollView>
@@ -26,7 +26,7 @@ export default function SerieScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F5F5F5', 
+    backgroundColor: '#0d1330', 
   },
   scroll: {
     alignItems: 'center',
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
   titulo: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#333',
+    color: '#ffffff',
     marginBottom: 20,
   },
   logo: {
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     width: '100%',
     padding: 20,
     borderWidth: 2,
-    borderColor: '#CC0000',
+    borderColor: '#ffffff',
     borderRadius: 10,
     backgroundColor: '#FFF',
     alignItems: 'center',
@@ -58,11 +58,11 @@ const styles = StyleSheet.create({
   cursotexto: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#CC0000',
+    color: '#0d1330',
   },
   subtitulo: {
     fontSize: 16,
-    color: '#666',
+    color: '#ffffff',
     marginBottom: 30,
     fontWeight: '500',
   },

@@ -50,7 +50,7 @@ export default function TabLayout() {
         options={{
           title: '3º Ano',
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="terminal-outline" size={size} color={color} />
+            <Ionicons name="school-outline" size={size} color={color} />
           ),
         }}
       />
